@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -27,23 +28,29 @@
     </div>
 
     <div class="userTotal">
-        <h3>Your points:</h3>
+        <h3>Your points:
+            <span id="yourTotal"></span>
+        </h3>
     </div>
 
     <div id="gemsContainer">
         <div class="gems">
-            <img src="assets/images/red-diamond.png" class=gemImage id="choiceOne" alt="Red Gem">
+            <img src="assets/images/red-diamond.png" class="gemImage" id="choiceOne" alt="Red Gem">
             <img src="assets/images/pink-diamond.png" class=gemImage id="choiceTwo" alt="Pink Gem">
             <img src="assets/images/silver-diamond.png" class=gemImage id="choiceThree" alt="Silver Gem">
             <img src="assets/images/yellow-diamond.png" class=gemImage id="choiceFour" alt="Yellow Gem">
         </div>
     </div>
     <div class="wins">
-        <h3>Wins:</h3>
+        <h3>Wins:
+            <span id="numberWins"></span>
+        </h3>
     </div>
 
     <div class="losses">
-        <h3>Losses:</h3>
+        <h3>Losses:
+            <span id="numberLosses"></span>
+        </h3>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>

@@ -1,27 +1,54 @@
-/* body{
-    background-color: black;
+body{
+    background-color:black;
     color: white;
-} */
-#gemsContainer{
-    background-color: burlywood;
+    font-family: 'Lakki Reddy', cursive;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+}
+.instructions{
+    font-size: 25px;
+    text-align: center;
 }
 #choiceOne{
-    height: 150px;
+    height: 170px;
     width: 150px;
-    background-color: black;
+    background-color:black;
+    padding-bottom: 60px;
+
 }
 #choiceTwo{
     height: 200px;
     width: 150px;
-    background-color: black;
+    background-color:black;
+    padding-bottom: 30px;
+
 }
 #choiceThree{
     height: 180px;
     width: 150px;
-    background-color: black;
+    background-color:black;
+    padding-bottom: 50px;
+
 }
 #choiceFour{
     height: 230px;
     width: 170px;
-    background-color: black;
+    background-color:black;
+
+}
+.numberToMatch,
+.userTotal,
+.wins,
+.losses{
+    clear: both;
+    font-size: 25px;
+    text-align: center;
+}
+#gemsContainer{
+    background-color:black;
+    text-align: center;
 }
