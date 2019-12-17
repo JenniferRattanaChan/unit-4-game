@@ -1,0 +1,27 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+#gemsContainer{
+    background-color: burlywood;
+}
+#choiceOne{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+#choiceTwo{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+}
+#choiceThree{
+    height: 180px;
+    width: 150px;
+    background-color: black;
+}
+#choiceFour{
+    height: 230px;
+    width: 170px;
+    background-color: black;
+}
